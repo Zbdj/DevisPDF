@@ -1,0 +1,120 @@
+@media all {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    -moz-print-color-adjust: exact !important;
+
+  }
+
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  #pageNumber {
+    content: counter(page)
+  }
+
+
+
+  /* #pageFooter:after {
+  counter-increment: page;
+  content: counter(page) "/" counter(page);
+
+} */
+
+  /* CSS DU PDF */
+
+
+  .tdInfo {
+    border-top: 0px solid white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .pResume {
+    font-size: 12px !important;
+    margin-top: 0%;
+  }
+
+  .bandeauTabl {
+    border-top: 1px dashed #dbdbdb !important;
+  }
+
+  .divResum {
+    margin-top: 2vh;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .btn_pdf:hover {
+    animation: pulse 0.5s infinite;
+    animation-timing-function: linear;
+  }
+
+  .bgForm {
+    /* background:linear-gradient(90deg, #ff5f6d 0%,#ffc371 100% );} */
+    /* background: linear-gradient(135deg, #4283C6 0%, #233E92 100%); */
+    background:linear-gradient(90deg, #8e9eab 0%,#eef2f3 100% );
+  }
+
+
+  .divForm {
+    /* background: rgba(255, 255, 255, 0.384); */
+    background: white;
+    color: rgba(0, 0, 0, 0.479);
+    padding-top: 0vh; 
+    padding-left: 6vh;
+    padding-right: 6vh;
+
+
+  }
+
+
+}
+
+@media print {
+
+  /* .dont-break {
+    display: block;
+    position: fixed 
+  } */
+  page {
+    margin: 0;
+    box-shadow: 0;
+  }
+
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}

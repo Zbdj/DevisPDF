@@ -1,0 +1,56 @@
+{
+  "name": "devis_sayse",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@progress/kendo-drawing": "^1.5.12",
+    "@progress/kendo-react-pdf": "^3.2.0",
+    "antd": "^3.17.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "downshift": "^3.2.10",
+    "express": "^4.17.1",
+    "geodist": "^0.2.1",
+    "js-file-download": "^0.4.7",
+    "jspdf": "^1.5.3",
+    "mdbreact": "^4.13.0",
+    "multi-download": "^3.0.0",
+    "print-js": "^1.0.61",
+    "react": "^16.8.6",
+    "react-autocomplete": "^1.8.1",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-csv": "^1.1.1",
+    "react-dom": "^16.8.6",
+    "react-filter-search": "^1.0.8",
+    "react-google-maps-loader": "^4.2.5",
+    "react-google-places-suggest": "^3.7.1",
+    "react-html2pdf": "^1.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-search-box": "^2.0.1",
+    "react-search-input": "^0.11.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

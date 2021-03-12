@@ -13,7 +13,7 @@
     "express": "^4.17.1",
     "geodist": "^0.2.1",
     "js-file-download": "^0.4.7",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "mdbreact": "^4.13.0",
     "multi-download": "^3.0.0",
     "print-js": "^1.0.61",
